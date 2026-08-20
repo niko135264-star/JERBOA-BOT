@@ -1656,13 +1656,7 @@ def run_web_server():
 async def on_connect():
     run_web_server()
 
-# Вместо bot.run("MTUxNzI2...") напишите это:
-if __name__ == "__main__":
-    token = os.environ.get("MTUxNzI2Mjc1Mjk0OTczNTQ0NQ.GJYoDh.pHYtWQBcbQm8j62Bsr89HfZGje_6JC29Vs3q5k")
-    if not token:
-        print("КРИТИЧЕСКАЯ ОШИБКА: Токен не задан в настройках Render!")
-    else:
-        bot.run(token)
+bot.run("MTUxNzI2Mjc1Mjk0OTczNTQ0NQ.GgxjLw.KlBhCYS_fehOVsZnSzI19Tmwz2YAAMCBGlOfP4")
 
 
 

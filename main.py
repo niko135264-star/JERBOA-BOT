@@ -1656,7 +1656,12 @@ def run_web_server():
 async def on_connect():
     run_web_server()
 
-bot.run("MTUxNzI2Mjc1Mjk0OTczNTQ0NQ.G_LkVF.AZDn0BI00Wz3z01SktvRVD9NnZW_YmAtBWF-k8")
+# Пытаемся взять токен из скрытых настроек хостинга
+TOKEN = os.environ.get("MTUxNzI2Mjc1Mjk0OTczNTQ0NQ.G_LkVF.AZDn0BI00Wz3z01SktvRVD9NnZW_YmAtBWF-k8")
 
+if TOKEN:
+    bot.run(TOKEN)
+else:
+    print("КРИТИЧЕСКАЯ ОШИБКА: Переменная DISCORD_TOKEN не настроена на хостинге!")
 
 

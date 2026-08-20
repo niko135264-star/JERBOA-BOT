@@ -1656,7 +1656,7 @@ def run_web_server():
 async def on_connect():
     run_web_server()
 
-bot.run("MTUxNzI2Mjc1Mjk0OTczNTQ0NQ.GgxjLw.KlBhCYS_fehOVsZnSzI19Tmwz2YAAMCBGlOfP4")
+bot.run("MTUxNzI2Mjc1Mjk0OTczNTQ0NQ.G_LkVF.AZDn0BI00Wz3z01SktvRVD9NnZW_YmAtBWF-k8")
 
 
 

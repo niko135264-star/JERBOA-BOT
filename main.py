@@ -66,16 +66,11 @@ def db_init():
 db_init()
 
 
-# Событие запуска
 @bot.event
 async def on_ready():
-    print("=======================================")
-    print(f"Бот {bot.user} успешно запущен!")
-    print("=======================================")
-
-    await bot.change_presence(activity=None)
-
-    check_long_timers.start()
+    print(f"✅ Бот {bot.user} успешно запущен!")
+    print(f"🆔 ID: {bot.user.id}")
+    print("📡 Slash-команды загружены.")
 
 
 # Новый пользователь

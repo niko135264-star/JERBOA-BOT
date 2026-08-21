@@ -1,5 +1,0 @@
-disnake==2.12.0
-python-a2s
-discord.py
-aiohttp
-

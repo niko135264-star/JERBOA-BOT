@@ -23,7 +23,9 @@ class Moderation(commands.Cog):
         description="Выгнать пользователя с сервера (Причина обязательна)"
     )
     @commands.has_any_role(
-        1522355540326617169
+        1526250470849515688,
+        1526250470849515688,
+        1521855842964471918
     )
     async def kick(
         self,

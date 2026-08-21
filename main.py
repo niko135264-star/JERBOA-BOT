@@ -71,7 +71,7 @@ async def on_ready():
     print(f"✅ Бот {bot.user} успешно запущен!")
     print(f"🆔 ID: {bot.user.id}")
     print("📡 Slash-команды загружены.")
-
+    activity = discord.Game(name="Minecraft")
 
 # Новый пользователь
 @bot.event
